@@ -1,0 +1,42 @@
+{
+	"name": "@hediet/monaco-editor-react",
+	"version": "0.1.0",
+	"author": {
+		"name": "Henning Dieterichs",
+		"email": "henning.dieterichs@live.de"
+	},
+	"keywords": [
+		"monaco",
+		"editor",
+		"react"
+	],
+	"description": "This library exposes the monaco editor as a react component.",
+	"homepage": "https://github.com/hediet/monaco-editor-react",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hediet/monaco-editor-react.git"
+	},
+	"license": "MIT",
+	"scripts": {
+		"dev": "tsc --watch",
+		"build": "tsc"
+	},
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"files": [
+		"dist",
+		"src"
+	],
+	"dependencies": {},
+	"peerDependencies": {
+		"monaco-editor": "^0.20.0",
+		"react": "^16.12.0"
+	},
+	"devDependencies": {
+		"typescript": "^3.9.7"
+	},
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
+	}
+}

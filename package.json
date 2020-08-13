@@ -1,0 +1,11 @@
+{
+	"private": true,
+	"workspaces": [
+		"./lib",
+		"./demo"
+	],
+	"scripts": {},
+	"devDependencies": {
+		"prettier": "^1.19.1"
+	}
+}
