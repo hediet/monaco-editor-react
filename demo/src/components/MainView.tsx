@@ -22,7 +22,6 @@ export class MainView extends React.Component {
 		);
 	}
 }
-
 class _Foo extends React.Component {
 	private readonly model = getLoadedMonaco().editor.createModel(
 		'{ "foo": true }',

@@ -13,7 +13,7 @@ export async function loadMonaco(): Promise<typeof monacoTypes> {
 	console.warn("Loading monaco from CDN...");
 
 	const baseUrl =
-		"https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.20.0/min/vs";
+		"https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.25.2/min/vs";
 	await loadScript(`${baseUrl}/loader.min.js`);
 	const $require = eval("require"); // to prevent webpack from compiling the require
 	$require.config({
